@@ -1,0 +1,24 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+        int x = 0;
+        int classesAttended = x;
+        x = 30;
+        System.out.println("Classes in attendance:" + x);
+        String studentName = "Karimat Bello";
+        double y = 0;
+        double classGrade = y;
+        y = 90.3;
+        System.out.println("Current Total Grade:" + y);
+        System.out.println("Student Name:" + studentName);
+        boolean daysAbsent = false;
+        System.out.println("Has this student been absent thus far?" + daysAbsent);
+        float testAverage = 93.45f;
+        System.out.println("Current Test Score Average:" + testAverage);
+
+
+    }
+}
